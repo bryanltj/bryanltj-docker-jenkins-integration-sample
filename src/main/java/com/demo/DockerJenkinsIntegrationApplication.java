@@ -15,7 +15,7 @@ public class DockerJenkinsIntegrationApplication {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Hello Docker123! Change the main branch";
+		return "Hello Docker123! Change the main branch, commit to taojie branch!!!";
 	}
 
 }
