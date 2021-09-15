@@ -13,9 +13,9 @@ public class DockerJenkinsIntegrationApplication {
 		SpringApplication.run(DockerJenkinsIntegrationApplication.class, args);
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/api")
 	public String index() {
-		return "Hello Docker123! Change the main branch, commit to taojie branch";
+		return "Hello Docker123! Change the main branch, commit to taojie branch1";
 	}
 
 }
